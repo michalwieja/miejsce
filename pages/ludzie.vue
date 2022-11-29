@@ -1,12 +1,12 @@
 <template>
   <div class="site container fh">
-    szkola
+    ludzie
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Szkola'
+  name: 'Ludzie'
 }
 </script>
 

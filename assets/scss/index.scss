@@ -35,6 +35,10 @@ body {
   overflow-x: hidden;
 }
 
+.fh {
+  min-height: 95vh;
+}
+
 .column {
   display: flex;
   flex-direction: column;

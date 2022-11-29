@@ -1,12 +1,12 @@
 <template>
   <div class="site container fh">
-    szkola
+    sponsorzy
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Szkola'
+  name: 'Sponsorzy'
 }
 </script>
 

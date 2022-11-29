@@ -1,0 +1,137 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  height: $headerHeight;
+  padding: 1vh 0;
+  transition: .5s;
+  background-color: rgba(255, 255, 255, 0.5);
+
+
+  &.active {
+    background-color: rgba(255, 255, 255, 1);
+    height: $headerHeightActive;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    overflow-y: hidden;
+  }
+
+  .logo {
+    height: 100%;
+    position: relative;
+    z-index: 5;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+
+    .nuxt-link-exact-active::before {
+      position: absolute;
+      overflow: hidden;
+      content: '';
+      width: 100%;
+      height: 2px;
+      background: $primaryColor;
+      bottom: -2px;
+    }
+
+    &__links {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+      align-items: center;
+      position: relative;
+      @media (max-width: $break-1200) {
+        position: absolute;
+        justify-content: space-evenly;
+        background-color: white;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        padding: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: 0.3s;
+        z-index: 2;
+        gap: 0;
+      }
+    }
+
+    .nav-active {
+      z-index: 1;
+      transform: translateX(0);
+    }
+
+    &__link {
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: $black;
+      font-size: 20px;
+      padding-bottom: 10px;
+      transition: .5s;
+      font-family: 'League Spartan', sans-serif;
+      font-weight: bold;
+      position: relative;
+
+      &::before {
+        position: absolute;
+        overflow: hidden;
+        content: '';
+        width: 0;
+        height: 2px;
+        background: $primaryColor;
+        bottom: -2px;
+        transition: .2s;
+      }
+
+      &:hover::before {
+        width: 100%;
+      }
+    }
+
+    .burger {
+      display: none;
+      position: relative;
+      z-index: 2;
+      cursor: pointer;
+
+      @media screen and (max-width: $break-1200) {
+        display: block;
+      }
+
+      &__line {
+        background-color: $black;
+        width: 25px;
+        height: 1px;
+        margin: 5px;
+        transition: 0.2s;
+      }
+    }
+  }
+}
+
+.toggle .burger__line:nth-child(1) {
+  transform: rotate(-45deg) translate(-2px, 3px);
+}
+
+.toggle .burger__line:nth-child(2) {
+  opacity: 0;
+}
+
+.toggle .burger__line:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}

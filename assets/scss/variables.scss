@@ -1,0 +1,29 @@
+$primaryColor: #EAB213;
+$secondaryGreen: #8bb3a2;
+
+$black: #313131;
+
+
+$break-600: 600px;
+$break-900: 900px;
+$break-1200: 1200px;
+
+$fz10: clamp(8px, calc(.5vw + .1rem), 10px);
+$fz12: clamp(10px, calc(.6vw + .1rem), 12px);
+$fz14: clamp(11px, calc(.7vw + .1rem), 14px);
+$fz16: clamp(13px, calc(.8vw + .1rem), 16px);
+$fz18: clamp(15px, calc(.9vw + .1rem), 18px);
+$fz20: clamp(16px, calc(1vw + .1rem), 20px);
+$fz24: clamp(20px, calc(1.2vw + .1rem), 24px);
+$fz30: clamp(24px, calc(1.5vw + .1rem), 30px);
+$fz40: clamp(32px, calc(2vw + .1rem), 40px);
+$fz50: clamp(40px, calc(2.5vw + .1rem), 50px);
+$fz100: clamp(60px, calc(5vw + .1rem), 100px);
+
+$headerHeight: 10vh;
+$headerHeightActive: 8vh;
+
+:root {
+  --primary: #EAB213;
+  --headerHeight: 10vh;
+}

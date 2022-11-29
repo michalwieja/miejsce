@@ -1,0 +1,97 @@
+@import "variables";
+@import "header";
+@import "footer";
+@import "hero";
+@import "content-with-image";
+@import "button";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: .5s;
+  overflow-y: scroll;
+}
+
+.site {
+  padding-top: $headerHeight+4vh;
+  position: relative;
+  @media (max-width: $break-1200) {
+    padding-top: $headerHeight;
+  }
+}
+
+.container {
+  width: calc(min(1320px, 90%));
+  margin-inline: auto;
+  overflow-x: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mobile-only {
+  display: none;
+  @media (max-width: $break-600) {
+    display: block;
+  }
+}
+
+.desktop-only {
+  display: block;
+  @media (max-width: $break-600) {
+    display: none;
+  }
+}
+
+
+//scrollbar
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  background-color: #F5F5F5;
+  position: absolute;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: $black;
+}
+
+//page transistion
+.page-enter-active, .page-leave-active {
+  transition: .5s;
+}
+
+.page-enter, .page-leave-to {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.layout-enter-active, .layout-leave-active {
+  transition: .5s
+}
+
+.layout-enter, .layout-leave-active {
+  opacity: 0
+}

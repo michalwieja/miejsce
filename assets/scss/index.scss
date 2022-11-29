@@ -4,6 +4,7 @@
 @import "hero";
 @import "content-with-image";
 @import "button";
+@import "accordion";
 
 * {
   margin: 0;
@@ -37,6 +38,22 @@ body {
 
 .fh {
   min-height: 95vh;
+}
+
+.pl {
+  padding-left: calc(calc(100vw - calc(min(1320px, 90%))) / 2);
+}
+
+.pr {
+  padding-right: calc(calc(100vw - calc(min(1320px, 90%))) / 2);
+}
+
+.ml {
+  margin-left: calc(calc(100vw - calc(min(1320px, 90%))) / 2);
+}
+
+.mr {
+  margin-right: calc(calc(100vw - calc(min(1320px, 90%))) / 2);
 }
 
 .column {

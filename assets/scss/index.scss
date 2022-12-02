@@ -6,11 +6,23 @@
 @import "button";
 @import "accordion";
 
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'roboto', sans-serif;
+
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #313131;
+  overflow-x: hidden;
+}
+
+.league-spartan {
+  font-family: 'League Spartan', sans-serif;
 }
 
 html {

@@ -4,27 +4,23 @@ export default [
     name: 'Start'
   },
   {
-    path: '/szkola',
+    path: '/#szkola',
     name: 'Szkoła'
   },
   {
-    path: '/ludzie',
+    path: '/#ludzie',
     name: 'Ludzie'
   },
   {
-    path: '/zajecia',
+    path: '/#zajecia',
     name: 'Zajęcia'
   },
   {
-    path: '/sponsorzy',
+    path: '/#sponsorzy',
     name: 'Sponsorzy'
   },
   {
-    path: '/kontakt',
+    path: '/#kontakt',
     name: 'Kontakt'
   }
-  // {
-  //   path: '/rekrutacja',
-  //   name: 'Rekrutacja 23'
-  // }
 ]

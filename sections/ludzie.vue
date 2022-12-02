@@ -1,6 +1,6 @@
 <template>
   <div class="site container fh">
-    ludzie
+    <Title title="Ludzie Miejsca" />
   </div>
 </template>
 
@@ -10,6 +10,13 @@ export default {
 }
 </script>
 
+<script>
+import Title from '../components/Title.vue';
+
+export default {
+  components: { Title }
+};
+</script>
 <style scoped>
 
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class=" fh school site">
     <div class="school__content">
-      <h1>Szkoła</h1>
+      <Title title="Szkoła" />
       <Accordion :content="faqConfig" />
     </div>
     <div class="school__photo" />
@@ -11,10 +11,12 @@
 <script>
 import Accordion from '../components/Accordion.vue'
 import faqConfig from '../config/faqConfig.js'
+import Title from '../components/Title.vue'
 
 export default {
   name: 'Szkola',
   components: {
+    Title,
     Accordion
   },
   data () {
@@ -28,6 +30,8 @@ export default {
 <style lang="scss">
 .school {
   display: flex;
+  align-items: flex-start;
+  padding-bottom: 10vh;
 
   @media (max-width: 1200px) {
     flex-direction: column;
@@ -35,10 +39,10 @@ export default {
 
   & > div {
     width: 50%;
+
     @media (max-width: 1200px) {
       width: 100%;
     }
-
   }
 
   &__content {
@@ -46,18 +50,14 @@ export default {
   }
 
   &__photo {
-    background: #000;
-    min-height: 300px;
-    background-image: url("~/assets/img/hero-img.jpg");
+    background: #ddd;
+    height: 600px;
+    background-image: url("~/assets/img/faq-cover.jpg");
     background-position: center;
+    background-repeat: no-repeat;
     @media (max-width: 1200px) {
-      flex: 1;
+      height: 300px
     }
-  }
-
-  h1 {
-    text-transform: uppercase;
-    font-size: 36px;
   }
 }
 

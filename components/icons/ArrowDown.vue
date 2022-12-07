@@ -11,5 +11,22 @@ export default {
 </script>
 
 <style scoped>
+svg {
+  fill: rgba(255, 255, 255, 0.8);
+  height: 48px;
+  width: 48px;
+  animation: float infinite 5s;
+}
 
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
 </style>

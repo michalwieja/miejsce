@@ -26,22 +26,22 @@
         <div class="contact__card">
           <HomeIcon height="32" />
           <div>
-            <h3>Nowaka 123</h3>
-            <h3>40-000 Katowice</h3>
+            <h3>Staromiejska 7</h3>
+            <h3>40-013 Katowice</h3>
           </div>
         </div>
         <div class="contact__card">
           <EmailIcon height="32" />
           <h3>
-            <a href="mailto:kontakt@kropka.art">
-              kontakt@kropka.art
+            <a href="mailto:biuro@liceummiejsce.pl">
+              biuro@liceummiejsce.pl
             </a>
           </h3>
         </div>
         <div class="contact__card">
           <PhoneIcon height="32" />
           <h3>
-            <a href="tel:690 368 863">690 398 893</a>
+            <a href="tel:662 007 220">662 007 220</a>
           </h3>
         </div>
         <div class="contact__card">
@@ -106,6 +106,14 @@ export default {
     & > div {
       width: 50%;
     }
+
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      height: auto;
+      & > div {
+        width: 100%;
+      }
+    }
   }
 
   &__map {
@@ -114,13 +122,27 @@ export default {
     width: 100%;
     border-radius: 20px;
     overflow: hidden;
+
+    @media (max-width: 1200px) {
+      height: 400px;
+
+    }
   }
 
   &__cards {
     height: 100%;
     gap: 16px;
-    display: flex;
     flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr;
+
+    @media(max-width: 600px) {
+      grid-template-columns: 1fr;
+
+    }
   }
 
   &__card {
@@ -130,12 +152,13 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
-    padding: 48px;
+    padding: 10px;
 
     svg {
       fill: white;
+      margin-bottom: 10px;
     }
   }
 }

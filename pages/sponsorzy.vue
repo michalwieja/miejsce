@@ -1,24 +1,21 @@
 <template>
-  <div class="container site">
-    <Title title="Sponsorzy" />
+  <div class="site">
+    <div class="container">
+      <Title title="Sponsorzy" />
+    </div>
     <Swiper />
   </div>
 </template>
 
 <script>
-import Title from '../components/Title.vue'
 import Swiper from '../components/Swiper.vue'
+import Title from '../components/Title.vue'
 
 export default {
   name: 'Sponsorzy',
   components: {
-    Swiper,
-    Title
-
+    Title,
+    Swiper
   }
 }
 </script>
-
-<style scoped>
-
-</style>

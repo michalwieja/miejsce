@@ -1,8 +1,8 @@
 <template>
-  <div class="site container fh">
+  <div class="site container fh classes">
     <Title title="Zajęcia w miejscu" />
-    <div class="site__cards">
-      <div v-for="el in classesConfig" :key="el" class="site__card">
+    <div class="classes__cards">
+      <div v-for="el in classesConfig" :key="el" class="classes__card">
         <div class="card-img">
           <img :src="`/zajecia/${el.img}`" alt="">
         </div>
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style lang="scss">
-.site {
+.classes {
   &__cards {
     display: flex;
     flex-wrap: wrap;
@@ -73,6 +73,7 @@ export default {
 
     .button {
       padding: 8px 16px;
+      font-size: 14px;
     }
   }
 }

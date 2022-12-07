@@ -2,9 +2,7 @@
   <div class="app">
     <Header />
     <Nuxt />
-    <Footer
-      v-if="$nuxt.$route.name !== 'index'"
-    />
+    <Footer />
   </div>
 </template>
 

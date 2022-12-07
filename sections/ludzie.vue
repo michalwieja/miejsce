@@ -5,18 +5,11 @@
 </template>
 
 <script>
+import Title from '../components/Title.vue'
+
 export default {
-  name: 'Ludzie'
+  name: 'Ludzie',
+  components: { Title }
+
 }
 </script>
-
-<script>
-import Title from '../components/Title.vue';
-
-export default {
-  components: { Title }
-};
-</script>
-<style scoped>
-
-</style>

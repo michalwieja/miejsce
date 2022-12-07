@@ -1,9 +1,7 @@
 <template>
-  <div class="site">
-    <div class="container">
-      <Title title="Sponsorzy" />
-      <Swiper />
-    </div>
+  <div class="container site">
+    <Title title="Sponsorzy" />
+    <Swiper />
   </div>
 </template>
 

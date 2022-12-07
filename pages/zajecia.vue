@@ -1,5 +1,5 @@
 <template>
-  <div class="site container fh classes">
+  <div class="site container classes">
     <Title title="Zajęcia w miejscu" />
     <div class="classes__cards">
       <div v-for="el in classesConfig" :key="el" class="classes__card">
@@ -36,17 +36,15 @@ export default {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
-    padding-top: 50px;
-
+    justify-content: space-between;
   }
 
   &__card {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
-    flex: 0 1 300px;
+    flex: 1 1 300px;
     font-size: 22px;
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
@@ -59,8 +57,12 @@ export default {
 
     .card-img {
       width: 100%;
-      height: 100%;
+      height: 200px;
       overflow: hidden;
+    }
+
+    .card-title {
+      text-align: center;
     }
 
     img {
@@ -68,7 +70,7 @@ export default {
       width: 100%;
       height: 100%;
       transition: .2s;
-
+      object-fit: cover;
     }
 
     .button {

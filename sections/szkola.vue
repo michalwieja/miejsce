@@ -1,5 +1,5 @@
 <template>
-  <div class=" fh school site">
+  <div class="school site">
     <div class="school__content">
       <Title title="Szkoła" />
       <Accordion :content="faqConfig" />
@@ -31,7 +31,6 @@ export default {
 .school {
   display: flex;
   align-items: flex-start;
-  padding-bottom: 10vh;
 
   @media (max-width: 1200px) {
     flex-direction: column;
@@ -50,11 +49,11 @@ export default {
   }
 
   &__photo {
-    background: #ddd;
     height: 600px;
     background-image: url("~/assets/img/faq-cover.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     @media (max-width: 1200px) {
       height: 300px
     }

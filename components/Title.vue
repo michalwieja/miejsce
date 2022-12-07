@@ -37,6 +37,7 @@ export default {
   text-transform: uppercase;
   letter-spacing: -4px;
   position: relative;
+  margin-bottom: 2rem;
 
   @media (max-width: 1200px) {
     overflow: hidden;

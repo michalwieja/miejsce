@@ -73,4 +73,12 @@
     }
   }
 
+  &__arrow-down {
+    position: absolute;
+    background: red;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
 }

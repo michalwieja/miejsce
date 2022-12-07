@@ -30,15 +30,22 @@
         </div>
       </div>
     </div>
+    <div class="hero__arrow-down">
+      <ArrowDown />
+    </div>
   </div>
 </template>
 
 <script>
 
 import Socials from '../components/Socials.vue'
+import ArrowDown from '../components/icons/ArrowDown.vue'
 
 export default {
   name: 'Hero',
-  components: { Socials }
+  components: {
+    ArrowDown,
+    Socials
+  }
 }
 </script>

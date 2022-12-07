@@ -33,11 +33,11 @@ export default {
     /* eslint-disable no-unused-vars */
     const swiper = new Swiper('.swiper', {
       // Optional parameters
-      slidesPerView: 3,
+      slidesPerView: 1,
       spaceBetween: 10,
       breakpoints: {
-        600: { slidesPerView: 1 },
-        1200: { slidesPerView: 2 }
+        600: { slidesPerView: 2 },
+        1200: { slidesPerView: 3 }
       },
       // @see https://swiperjs.com/swiper-api#parameters
       direction: 'horizontal',

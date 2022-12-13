@@ -1,9 +1,9 @@
 <template>
   <div class="swiper">
     <div class="swiper-wrapper">
-      <div v-for="i in 6" :key="i" :class="`slide--${i}`" class="swiper-slide">
+      <div v-for="(sponsor, i) in data" :key="i" :class="`slide--${i+1}`" class="swiper-slide">
         <div class="slider-content">
-          Sponsor {{ i }}
+          Sponsor {{ sponsor.label }}
         </div>
       </div>
     </div>
@@ -23,6 +23,7 @@ import { Autoplay, Navigation, Pagination, Swiper } from 'swiper'
 import 'swiper/swiper-bundle.min.css'
 
 export default {
+  props: ['data'],
   mounted () {
     // configure Swiper to use modules. The modules were tested with SwiperJS v6.8.4 with NuxtJS v2.15.7
     // previously it was before export default. Moved here for performance issues. Move back in case of problems.
@@ -105,5 +106,19 @@ export default {
 
 .slide--6 {
   background-color: #2ecc71;
+}
+
+/*custom swiper style*/
+.swiper-pagination .swiper-pagination-bullet {
+  /*opacity: 1;*/
+  /*background-color: white;*/
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--primary);
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #EAB213;
 }
 </style>

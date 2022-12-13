@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero />
-    <Szkola id="szkola" />
+    <Szkola id="szkola" ref="school" />
     <Ludzie id="ludzie" />
     <Zajecia id="zajecia" />
     <Sponsorzy id="sponsorzy" />
@@ -27,6 +27,5 @@ export default {
     Szkola,
     Hero
   }
-
 }
 </script>

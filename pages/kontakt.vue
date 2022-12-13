@@ -47,7 +47,7 @@
         <div class="contact__card">
           <PhoneIcon height="32" />
           <h3>
-            <a href="https://m.me/profile.php?id=100083269505886" target="_blank">Messanegr</a>
+            <a href="https://m.me/profile.php?id=100083269505886" target="_blank">Messenger</a>
           </h3>
         </div>
       </div>
@@ -97,7 +97,6 @@ export default {
 .contact {
 
   &__wrapper {
-    padding-top: 50px;
     display: flex;
     gap: 16px;
     align-items: center;
@@ -125,7 +124,6 @@ export default {
 
     @media (max-width: 1200px) {
       height: 400px;
-
     }
   }
 
@@ -141,7 +139,6 @@ export default {
 
     @media(max-width: 600px) {
       grid-template-columns: 1fr;
-
     }
   }
 

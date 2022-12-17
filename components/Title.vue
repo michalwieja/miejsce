@@ -44,6 +44,7 @@ export default {
   }
   @media (max-width: 600px) {
     font-size: 30px;
+    letter-spacing: -2px;
   }
 }
 

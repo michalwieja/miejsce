@@ -2,7 +2,7 @@
   <div class="site container classes">
     <Title title="Zajęcia w miejscu" />
     <div class="classes__cards">
-      <div v-for="el in classesConfig" :key="el" class="classes__card">
+      <div v-for="el in classesConfig" :key="el.title" class="classes__card">
         <div class="card-img">
           <img :src="`/zajecia/${el.img}`" alt="">
         </div>

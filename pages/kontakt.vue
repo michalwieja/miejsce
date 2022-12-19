@@ -4,12 +4,9 @@
     <div class="contact__wrapper">
       <div class="contact__map">
         <GmapMap
-          :center="{
-            lat: 50.13107051042874,
-            lng: 18.978761442401552
-          }"
+          :center="markers['0']"
           :options="mapOptions"
-          :zoom="15"
+          :zoom="17"
           style="width:100%;  height: 100%;"
         >
           <GmapMarker
@@ -30,26 +27,24 @@
             <h3>40-013 Katowice</h3>
           </div>
         </div>
-        <div class="contact__card">
+        <a class="contact__card" href="mailto:biuro@liceummiejsce.pl">
           <EmailIcon height="32" />
           <h3>
-            <a href="mailto:biuro@liceummiejsce.pl">
-              biuro@liceummiejsce.pl
-            </a>
+            biuro@liceummiejsce.pl
           </h3>
-        </div>
-        <div class="contact__card">
+        </a>
+        <a class="contact__card" href="tel:662 007 220">
           <PhoneIcon height="32" />
           <h3>
-            <a href="tel:662 007 220">662 007 220</a>
+            662 007 220
           </h3>
-        </div>
-        <div class="contact__card">
+        </a>
+        <a class="contact__card" href="https://m.me/profile.php?id=100083269505886" target="_blank">
           <PhoneIcon height="32" />
           <h3>
-            <a href="https://m.me/profile.php?id=100083269505886" target="_blank">Messenger</a>
+            Messenger
           </h3>
-        </div>
+        </a>
       </div>
     </div>
   </div>
@@ -76,8 +71,8 @@ export default {
       mapOptions,
       markers: {
         0: {
-          lat: 50.13107051042874,
-          lng: 18.978761442401552
+          lat: 50.25858473342255,
+          lng: 19.022622268498157
         }
       }
     }
@@ -95,6 +90,7 @@ export default {
 
 <style lang="scss">
 .contact {
+  padding-bottom: 40px;
 
   &__wrapper {
     display: flex;
@@ -157,6 +153,10 @@ export default {
       fill: white;
       margin-bottom: 10px;
     }
+  }
+
+  a {
+    cursor: pointer;
   }
 }
 

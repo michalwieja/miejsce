@@ -1,15 +1,39 @@
 <template>
-  <div class="site container classes">
-    <Title title="Zajęcia w miejscu" />
-    <div class="classes__cards">
-      <div v-for="el in classesConfig" :key="el.title" class="classes__card">
-        <div class="card-img">
-          <img :src="`/zajecia/${el.img}`" alt="">
+  <div>
+    <div class="site container classes">
+      <Title title="Zajęcia w miejscu" />
+      <div class="classes__cards">
+        <div
+          v-for="el in classesConfig"
+          :key="el.title"
+          class="classes__card"
+          @click="()=>handleClick(el)"
+        >
+          <div class="card-img">
+            <img :src="`/zajecia/${el.img}`" alt="">
+          </div>
+          <div class="card-title">
+            {{ el.title }}
+          </div>
+          <CustomButton label="Więcej" />
         </div>
-        <div class="card-title">
-          {{ el.title }}
-        </div>
-        <CustomButton label="Więcej" />
+      </div>
+    </div>
+    <div
+      v-if="showModal && selected"
+      class="modal"
+      role="dialog"
+    >
+      <div class="modal__overlay" @click="showModal=false">
+        <transition appear name="pop">
+          <div class="modal__content" @click.stop>
+            <div class="modal__icon" @click="showModal = false">
+              &times;
+            </div>
+            <h2>{{ selected.title }}</h2>
+            <p v-html="selected.long" />
+          </div>
+        </transition>
       </div>
     </div>
   </div>
@@ -24,7 +48,15 @@ export default {
   components: { Title },
   data () {
     return {
-      classesConfig
+      classesConfig,
+      selected: null,
+      showModal: false
+    }
+  },
+  methods: {
+    handleClick (el) {
+      this.showModal = true
+      this.selected = el
     }
   }
 }

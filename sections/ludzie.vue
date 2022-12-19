@@ -18,13 +18,13 @@
         </div>
       </div>
     </div>
-    <transition appear name="pop">
-      <div
-        v-if="showModal && selected"
-        class="modal"
-        role="dialog"
-      >
-        <div class="modal__overlay" @click="showModal=false">
+    <div
+      v-if="showModal && selected"
+      class="modal"
+      role="dialog"
+    >
+      <div class="modal__overlay" @click="showModal=false">
+        <transition appear name="pop">
           <div class="modal__content" @click.stop>
             <div class="modal__icon" @click="showModal = false">
               &times;
@@ -32,9 +32,9 @@
             <h2>{{ selected.name }}</h2>
             <p v-html="selected.long" />
           </div>
-        </div>
+        </transition>
       </div>
-    </transition>
+    </div>
   </div>
 </template>
 

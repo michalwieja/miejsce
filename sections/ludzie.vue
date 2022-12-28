@@ -82,6 +82,13 @@ export default {
     width: 100%;
     text-align: center;
     cursor: pointer;
+    filter: grayscale(1);
+    transition: .3s;
+
+    &:hover {
+      filter: grayscale(0);
+
+    }
   }
 
   &__name {

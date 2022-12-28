@@ -12,18 +12,18 @@ export default [
     long: '<p>Tutorka. Z zawodu muzyk – pianistka. Lubi być z ludźmi. Słuchać, by usłyszeć to, co jest ważne. Towarzyszenie młodym ludziom sprawiło, że zaczęła kroczyć nowymi ścieżkami. Odkryła, że relacja jest fundamentem dobrej edukacji.</p><p> Według niej w całym procesie nauczania warto poświęcić czas na dialog i bycie z drugim człowiekiem. Inspiruje się Porozumieniem bez Przemocy. Zgłębia tajniki komunikacji uczestnicząc w licznych warsztatach. Nieustannie poszukuje na edukacyjnej ścieżce. Czerpie inspiracje m. in. z książek  Daniela Siegela czy Andre Sterna oraz Kena Robinsona, bliskie są jej jego słowa “jeśli w jakikolwiek sposób jesteś zaangażowany w edukację, możesz być częścią zmiany”.</p>'
   },
   {
+    name: 'Joanna Gardynik',
+    img: 'asia-g.png',
+    short: 'Psycholożka, trenerka i superwizorka nauczycieli. Lubi przyrodę i rośliny w domu. Jej zadaniem w edukacji i świecie jest przyjmowanie ludzi, takimi, jakimi są. Po prostu.',
+    long: '<p>Psycholożka, trenerka i superwizorka nauczycieli. Lubi przyrodę i rośliny w domu. Jej zadaniem w edukacji i świecie jest przyjmowanie ludzi, takimi, jakimi są. Po prostu. To chcę właśnie robić w Miejscu.</p>'
+  },
+  {
     name: 'Agnieszka Kaczorek',
     img: 'agnieszka.png',
     short: 'Przyrodniczka, ekolożka, edukatorka, trenerką Odysei Umysłu. Las, łąka, pole to moje naturalne środowisko, w którym za pomocą lupy, mikroskopu, aplikacji obserwuje cudowny świat mniejszych i większych istot.',
     long: '<p>Przyrodniczka, ekolożka, edukatorka, trenerka Odysei Umysłu.\n' +
       'Las, łąka, pole to jej naturalne środowisko, w którym za pomocą lupy, mikroskopu, aplikacji obserwuje cudowny świat mniejszych i większych istot.\n' +
       'Ważne jest dla niej bycie świadomą konsumentką, uważną obserwatką zmian ekologicznych i zaangażowaną wolontariuszką i do tego właśnie będzie zapraszać młodych w Miejscu.</p><p>Poprowadzi zajęcia z edukacji globalnej, która jest kluczem do zrozumienia współzależności i zmian, jakie zachodzą we współczesnym świecie.</p>'
-  },
-  {
-    name: 'Joanna Gardynik',
-    img: 'asia-g.png',
-    short: 'Psycholożka, trenerka i superwizorka nauczycieli. Lubi przyrodę i rośliny w domu. Jej zadaniem w edukacji i świecie jest przyjmowanie ludzi, takimi, jakimi są. Po prostu.',
-    long: '<p>Psycholożka, trenerka i superwizorka nauczycieli. Lubi przyrodę i rośliny w domu. Jej zadaniem w edukacji i świecie jest przyjmowanie ludzi, takimi, jakimi są. Po prostu. To chcę właśnie robić w Miejscu.</p>'
   },
   {
     name: 'Joanna Zabłocka – Skorek',

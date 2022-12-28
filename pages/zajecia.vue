@@ -55,6 +55,7 @@ export default {
   },
   methods: {
     handleClick (el) {
+      if (!el.long) { return }
       this.showModal = true
       this.selected = el
     }

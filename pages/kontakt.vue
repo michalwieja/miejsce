@@ -39,7 +39,7 @@
             662 007 220
           </h3>
         </a>
-        <a class="contact__card" href="https://m.me/profile.php?id=100083269505886" target="_blank">
+        <a class="contact__card" href="https://m.me/liceummiejsce" target="_blank">
           <PhoneIcon height="32" />
           <h3>
             Messenger

@@ -15,10 +15,10 @@ export default [
     path: '/#zajecia',
     name: 'Zajęcia'
   },
-  {
-    path: '/#sponsorzy',
-    name: 'Sponsorzy'
-  },
+  // {
+  //   path: '/#sponsorzy',
+  //   name: 'Sponsorzy'
+  // },
   {
     path: '/#kontakt',
     name: 'Kontakt'

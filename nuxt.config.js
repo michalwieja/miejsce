@@ -1,10 +1,15 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
+
   target: 'static',
+  server: {
+    host: '0.0.0.0',
+    port: 8000
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Miejsce',
+    title: 'Liceum Miejsce',
     htmlAttrs: {
       lang: 'pl'
     },
@@ -28,16 +33,16 @@ export default {
       {
         hid: 'og:type',
         property: 'og:type',
-        content: 'website'
+        content: 'Liceum Miejsce'
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'content'
+        content: 'Liceum Miejsce'
       }, {
         hid: 'og:description',
         property: 'og:description',
-        content: 'content'
+        content: 'Liceum Miejsce'
       },
       {
         hid: 'og:image',

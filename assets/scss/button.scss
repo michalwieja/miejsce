@@ -14,7 +14,7 @@
   font-size: $fz20;
   white-space: nowrap;
   transition: .3s;
-  border: 2px solid transparent;
+  border: 2px solid $primaryColor;
 
   &:hover {
     background-color: white;

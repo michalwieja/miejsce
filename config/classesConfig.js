@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'Tutor indywidualny',
+    title: 'Tutoring indywidualny',
     img: 'tutoring-indywidualny.jpg',
     long: '<p>W Miejscu oferujemy tutoring rozwojowy i naukowy. Podczas spotkań z tutorem (co dwa tygodnie), młody człowiek będzie miał możliwość przyglądania się sobie, swoim planom i ich realizacji. Rolą tutora jako przewodnika jest słuchanie, inspirowanie, wzmacnianie, pomaganie w nazywaniu rzeczy po imieniu, w usuwaniu przeszkód, w odpowiadaniu na wyzwania.</p><p>Tutoring to przede wszystkim spotkanie człowieka z człowiekiem w bezpiecznej, rozumiejącej, empatycznej przestrzeni, w której możliwe jest wzrastanie. W tej przestrzeni młody człowiek może wychodzić ze swojej strefy komfortu, by podejmować nowe wyzwania mając równocześnie zgodę na popełnianie błędów. Tutaj bowiem, inaczej niż w tradycyjnej szkole, błąd jest mile widziany, bo przecież jest częścią procesu uczenia się.</p>'
   },
@@ -38,6 +38,7 @@ export default [
   },
   {
     title: 'Kilka kroków dalej',
-    img: 'kilka-krokow.jpg'
+    img: 'kilka-krokow.jpg',
+    long: '<p>"Kilka kroków dalej" to projekt naszego wędrowania, doświadczania i poznawania. Wędrowania blisko i daleko ale zawsze środkami komunikacji miejskiej. Doświadczania i poznawania, najpierw siebie w trakcie wędrówki, potem drugiego człowieka i świata. Projekt służy wspieraniu siebie w uważnym, świadomym i refleksyjnym byciu obserwatorem.</p>'
   }
 ]

@@ -20,7 +20,13 @@
               {{ link.name }}
             </NuxtLink>
           </div>
-          <CustomButton label="Rekrutacja `23" />
+          <NuxtLink
+            class="no-border"
+            to="#rekrutacja"
+            @click="navActive=false"
+          >
+            <CustomButton :to="'#rekrutacja'" label="Rekrutacja `23" />
+          </NuxtLink>
         </div>
         <div :class="{toggle:navActive}" class="burger" @click="handleBurgerClick">
           <div class="burger__line" />

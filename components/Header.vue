@@ -16,16 +16,18 @@
             :key="link.name"
             @click="navActive=false"
           >
-            <NuxtLink :to="link.path" class="nav__link" @click="navActive=false">
+            <NuxtLink :to="link.path" class="nav__link">
               {{ link.name }}
             </NuxtLink>
           </div>
           <NuxtLink
             class="no-border"
             to="#rekrutacja"
-            @click="navActive=false"
           >
-            <CustomButton :to="'#rekrutacja'" label="Rekrutacja `23" />
+            <CustomButton
+              :handle-click="()=>navActive=false"
+              label="Rekrutacja `23"
+            />
           </NuxtLink>
         </div>
         <div :class="{toggle:navActive}" class="burger" @click="handleBurgerClick">

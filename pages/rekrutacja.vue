@@ -15,7 +15,7 @@
         udział w jednodniowej wyprawie
       </li>
       <li>
-        spotkanie informacyjno - rekrutacyjne dla rodziców (6.02.2023)
+        spotkanie informacyjno - rekrutacyjne dla rodziców
       </li>
       <li>
         wypełnienie formularza rekrutacyjnego do Miejsca

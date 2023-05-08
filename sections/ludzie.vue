@@ -145,6 +145,7 @@ export default {
 
   p {
     margin-top: 20px;
+    line-height: 150%;
   }
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="site container">
-    <Title title="Rekrutacja" />
+    <Title title="Rekrutacja Katowice" />
     <h2>
       W roku szkolnym 2023/2024 mamy miejsce dla 12 pierwszoklasistów.
     </h2>
@@ -27,6 +27,11 @@
         podpisanie regulaminu Miejsca i wpłata wpisowego
       </li>
     </ul>
+    <h3 class="link">
+      <a href="https://forms.gle/tHM7o7QCrWyQL1KH7" target="_blank">
+        Formularz rekrutacyjny
+      </a>
+    </h3>
   </div>
 </template>
 
@@ -34,7 +39,7 @@
 import Title from '../components/Title.vue'
 
 export default {
-  name: 'Rekrutacja',
+  name: 'RekrutacjaKtw',
   components: { Title }
 }
 </script>

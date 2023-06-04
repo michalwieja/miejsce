@@ -5,7 +5,8 @@
     <Ludzie id="ludzie" />
     <Zajecia id="zajecia" />
     <!--    <Sponsorzy id="sponsorzy" />-->
-    <Rekrutacja id="rekrutacja" />
+    <RekrutacjaKtw id="rekrutacja-ktw" />
+    <RekrutacjaKrk id="rekrutacja-krk" />
     <Kontakt id="kontakt" />
   </div>
 </template>
@@ -17,18 +18,20 @@ import Hero from './Hero.vue'
 import Zajecia from './zajecia.vue'
 // import Sponsorzy from './sponsorzy.vue'
 import Kontakt from './kontakt.vue'
-import Rekrutacja from './rekrutacja.vue'
+import RekrutacjaKtw from './rekrutacja-ktw.vue'
+import RekrutacjaKrk from './rekrutacja-krk.vue'
 
 export default {
   name: 'IndexPage',
   components: {
-    Rekrutacja,
     Kontakt,
     // Sponsorzy,
     Zajecia,
     Ludzie,
     Szkola,
-    Hero
+    Hero,
+    RekrutacjaKtw,
+    RekrutacjaKrk
   }
 }
 </script>

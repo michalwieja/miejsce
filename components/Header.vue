@@ -22,11 +22,20 @@
           </div>
           <NuxtLink
             class="no-border"
-            to="#rekrutacja"
+            to="#rekrutacja-ktw"
           >
             <CustomButton
               :handle-click="()=>navActive=false"
-              label="Rekrutacja `23"
+              label="Rekrutacja Katowice"
+            />
+          </NuxtLink>
+          <NuxtLink
+            class="no-border"
+            to="#rekrutacja-krk"
+          >
+            <CustomButton
+              :handle-click="()=>navActive=false"
+              label="Rekrutacja Kraków"
             />
           </NuxtLink>
         </div>

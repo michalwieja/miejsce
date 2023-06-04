@@ -36,13 +36,13 @@
         <a class="contact__card" href="tel:662 007 220">
           <PhoneIcon height="32" />
           <h3>
-            662 007 220
+            Katowice - 662 007 220
           </h3>
         </a>
-        <a class="contact__card" href="https://m.me/liceummiejsce" target="_blank">
+        <a class="contact__card" href="tel:603 185 012">
           <PhoneIcon height="32" />
           <h3>
-            Messenger
+            Kraków - 603 185 012
           </h3>
         </a>
       </div>

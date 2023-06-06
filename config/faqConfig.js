@@ -21,7 +21,7 @@ export default [
     id: 3,
     active: false,
     title: 'Czy szkoła jest płatna? Ile wynosi czesne?',
-    details: 'Tak. Czesne w roku szkolnym 2022/23 wynosi 1500 zł za ucznia miesięcznie.'
+    details: 'Tak. Czesne w roku szkolnym 2023/24 wynosi 1500 zł za ucznia miesięcznie.'
   },
   {
     id: 4,

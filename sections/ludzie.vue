@@ -30,7 +30,6 @@
               &times;
             </div>
             <h2>{{ selected.name }}</h2>
-            <h4><a :href="`mailto:${selected.mail}`">{{ selected.mail }}</a></h4>
             <p v-html="selected.long" />
           </div>
         </transition>

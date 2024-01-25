@@ -27,22 +27,29 @@
             <h3>40-013 Katowice</h3>
           </div>
         </div>
-        <a class="contact__card" href="mailto:biuro@liceummiejsce.pl">
+        <div class="contact__card">
           <EmailIcon height="32" />
-          <h3>
-            biuro@liceummiejsce.pl
-          </h3>
-        </a>
+          <a href="mailto:biuro@liceummiejsce.pl">
+            <h3>
+              biuro@liceummiejsce.pl
+            </h3>
+          </a>
+          <a href="mailto:kontakt@liceummiejsce.pl">
+            <h3>
+              kontakt@liceummiejsce.pl
+            </h3>
+          </a>
+        </div>
         <a class="contact__card" href="tel:662 007 220">
           <PhoneIcon height="32" />
           <h3>
-            Katowice - 662 007 220
+            662 007 220
           </h3>
         </a>
         <a class="contact__card" href="tel:603 185 012">
           <PhoneIcon height="32" />
           <h3>
-            Kraków - 603 185 012
+            603 185 012
           </h3>
         </a>
       </div>

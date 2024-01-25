@@ -2,33 +2,30 @@
   <div class="site container">
     <Title title="Rekrutacja Katowice" />
     <h2>
-      W roku szkolnym 2023/2024 mamy miejsce dla 12 pierwszoklasistów.
+      W roku szkolnym 2024/2025 mamy miejsce dla 12 pierwszoklasistów.
     </h2>
     <h3>
       Rekrutacja składa się z następujących kroków:
     </h3>
     <ul>
       <li>
-        udział kandydatki/a w zajęciach w Miejscu w wybranych zajęciach edukacyjnych
+        udział kandydatki/a w wybranych zajęciach edukacyjnych w Miejscu,
       </li>
       <li>
-        udział w jednodniowej wyprawie
+        spotkanie informacyjno - rekrutacyjne dla rodziców,
       </li>
       <li>
-        spotkanie informacyjno - rekrutacyjne dla rodziców
+        wypełnienie formularza rekrutacyjnego do Miejsca,
       </li>
       <li>
-        wypełnienie formularza rekrutacyjnego do Miejsca
-      </li>
-      <li>
-        zapisanie kandydatki/a do Szkoły w Chmurze (wniosek o edukację domową)
+        zapisanie kandydatki/a do Szkoły w Chmurze (wniosek o edukację domową),
       </li>
       <li>
         podpisanie regulaminu Miejsca i wpłata wpisowego
       </li>
     </ul>
     <h3 class="link">
-      <a href="https://forms.gle/tHM7o7QCrWyQL1KH7" target="_blank">
+      <a href="https://forms.gle/pMBCem7vXszARwmv6" target="_blank">
         Formularz rekrutacyjny
       </a>
     </h3>

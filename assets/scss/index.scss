@@ -36,6 +36,7 @@ body {
 .site {
   padding-top: $headerHeight+4vh;
   position: relative;
+
   @media (max-width: $break-1200) {
     padding-top: $headerHeight;
   }
@@ -79,6 +80,7 @@ a {
 
 .mobile-only {
   display: none;
+
   @media (max-width: $break-600) {
     display: block;
   }
@@ -86,6 +88,7 @@ a {
 
 .desktop-only {
   display: block;
+
   @media (max-width: $break-600) {
     display: none;
   }
@@ -117,19 +120,23 @@ a {
 }
 
 //page transistion
-.page-enter-active, .page-leave-active {
+.page-enter-active,
+.page-leave-active {
   transition: .5s;
 }
 
-.page-enter, .page-leave-to {
+.page-enter,
+.page-leave-to {
   opacity: 0;
   transform: scale(0.9);
 }
 
-.layout-enter-active, .layout-leave-active {
+.layout-enter-active,
+.layout-leave-active {
   transition: .5s
 }
 
-.layout-enter, .layout-leave-active {
+.layout-enter,
+.layout-leave-active {
   opacity: 0
 }

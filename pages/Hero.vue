@@ -5,7 +5,7 @@
       <Socials />
       <div class="hero__title desktop-only">
         <div class="hero__skew-1">
-          Alternatywne „liceum”
+          Autorskie „liceum”
         </div>
         <br>
         <div class="hero__skew-2">
@@ -15,7 +15,7 @@
       <div class="hero__title mobile-only">
         <div>
           <div class="hero__skew-1">
-            Alternatywne
+            Autorskie
           </div>
         </div>
         <div>

@@ -8,8 +8,8 @@ export default [
   {
     id: 2,
     active: false,
-    title: 'Co łączy Miejsce ze Szkołą w Chmurze?',
-    details: 'W programie "Liceum Miejsce" mogą wziąć udział tylko uczennice i uczniowie, którzy w ramach edukacji domowej zapisani są do Szkoły w Chmurze. To tutaj, na platformie edukacyjnej, realizują podstawę programową, która jest wspierana poprzez udział w naszych projektach interdyscyplinarnych. W Szkole w Chmurze zdają też egzaminy z każdego przedmiotu, które umożliwiają uzyskanie promocji do klasy wyższej.'
+    title: 'Gdzie formalnie zapisani są uczniowie Liceum Miejsce',
+    details: 'W programie "Liceum Miejsce" mogą wziąć udział uczennice i uczniowie, którzy w ramach edukacji domowej zapisani są do Autorskiego Liceum Ogólnokształcącego Naviga we Wrocławiu . Uczniowie mają dostęp do platformy edukacyjnej, która stanowi podstawę do egzaminów.'
   },
   {
     id: 5,
@@ -28,5 +28,11 @@ export default [
     active: false,
     title: 'Jak dużo uczniów jest w klasie… czy w ogóle są klasy?',
     details: 'Nie ma! Uczniowie uczą się w grupach mieszanych wiekowo.'
+  },
+  {
+    id: 6,
+    active: false,
+    title: 'W jaki sposób przeprowadzane są egzaminy ?',
+    details: 'Młodzi Miejsca zdają egzaminy stacjonarnie w trakcie sesji egzaminacyjnych (pięć razy w roku)'
   }
 ]

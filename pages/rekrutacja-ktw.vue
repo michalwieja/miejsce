@@ -18,7 +18,7 @@
         wypełnienie formularza rekrutacyjnego do Miejsca,
       </li>
       <li>
-        zapisanie kandydatki/a do Szkoły w Chmurze (wniosek o edukację domową),
+        zapisanie kandydatki/a do Autorskiego Liceum Ogólnokształcącego Navigo w Katowicach (wniosek o edukację domową),
       </li>
       <li>
         podpisanie regulaminu Miejsca i wpłata wpisowego

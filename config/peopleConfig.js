@@ -29,16 +29,6 @@ export default [
       'Stypendystka Ministra Kultury i Dziedzictwa Narodowego.</p>'
   },
   {
-    name: 'Marcin Skorek',
-    img: 'marcin.png',
-    long: '<p>Doktor nauk humanistycznych, filmoznawca, wykładowca, wieloletni edukator kulturowy, autor kilkuset programów edukacji kulturowej. Reżyser teatralny i filmowy.</p><p>W 2016 otrzymał roku Honorowy Złoty Bilet (przyznawany przez Stowarzyszenie Kina Polskie) za wybitne zasługi w upowszechnianiu kultury filmowej w Polsce. Dwukrotny stypendysta Ministra Kultury, Dziedzictwa Narodowego i Sportu.</p>'
-  },
-  {
-    name: 'Pan Tomasz',
-    img: 'tomasz.png',
-    long: '<p>Astrobiolog. Edukator. Ambasador Edukacji Kosmicznej. Analogowy Astronauta. Trener Nauki i Trener Rozwoju Osobistego. Studiował biologię i wyspecjalizował się w cytogenetyce roślin, popełniając doktorat we współpracy z kapustą, rzepą i rzepakiem. Dziś testuje chwasty w habitacie marsjańskim, z misją zastosowania ich w diecie przyszłych astronautów. Ukończył Szkołę Trenerów Meritum w Katowicach. W swojej działalności łączy biologię i astronomię, wspierając młodych w odkrywaniu ich potencjału. Jego osobistym miejscem mocy jest Ciemne Niebo.</p><p>W Miejscu poprowadzi \'Doświadczalnik’ – warsztaty naukowe w cyklu Kolba w obszarze nauk przyrodniczych i \'Rocket Science’ – warsztaty z prowadzenia doświadczeń, dziwienia się, dowodzenia i testowania hipotez oraz pisania prac naukowych. </p>'
-  },
-  {
     name: 'Bartosz Bialik',
     img: 'bartek.png',
     long: '<p>Od września doktor z rozległego pogranicza teologii, filozofii i literaturoznawstwa. Jego pasją i miłością jest Górny Śląsk. Interesuje się historią europejskiego malarstwa, muzyki i myśli (prowadzi wykłady z przedmiotów związanych z historią i filozofią sztuki).</p><p>Jest też pedagogiem i instruktorem ZHP. W XIV Szczepie z Katowic, którego jest komendantem, robi ze swoimi przyjaciółmi radosne i wolne od nacjonalistycznego dyskursu harcerstwo w lesie i realizuje wiele ambitnych przedsięwzięć, takich jak wyprawy do Izraela, Islandii, Katalonii i Kraju Basków.</p><p> Jest również muzykiem, działa jako wokalista, multiinstrumentalista, kompozytor i songwriter, aranżer, producent. W każdą niedzielę w Telewizji Katowice opowiada o tajnikach języka górnośląskiego.</p>'
@@ -68,5 +58,10 @@ export default [
     name: 'Justyna Dembecka',
     img: 'justyna.jpg',
     long: '<p>Właścicielka, założycielką oraz opiekunka metodyczna szkoły języka angielskiego JUSTENGLISH w Piekarach Śląskich. Absolwentka studiów pedagogicznych, filologii angielskiej, wychowania wczesnoszkolnego, edukacji Montessori w przedszkolu i w szkole, oligofrenopedagogiki, zarządzania oświatą. Ukończyła liczne kursy związane z edukacją i rozwojem osobistym. Od ponad 20 lat zajmuje się nauką oraz testowaniem różnych metod, technik i form nauczania.Oferuje zajęcia prowadzone zgodnie z najnowszymi badaniami w zakresie neurodydaktyki, uwzględniające indywidualne potrzeby i możliwości uczniów..</p><p>W Miejscu pracuje  w grupach mieszanych. Rywalizację zastępuje współpracą – młodzi nierywalizują ze sobą (o oceny, względy, uwagę), bo doskonale zdają sobie sprawę, że są naróżnym etapie edukacyjnym czy rozwojowym. Zamiast tego wybierają współpracę – bardziej zaawansowani chętnie wprowadzają mniej znających język w świat dwujęzyczny. Zaś Ci początkujący korzystają z wiedzy zaawansowanych. Wszyscy na tym zyskują. Nie tylko wiedzę, ale i głębsze relacje. Zaawansowani często przyjmują rolę nauczyciela, co pozwala im ugruntować wiedzę i ewentualnie uzupełnić braki. Początkujący, odnajdują swoich mentorów, którzy również poza zajęciami wspierają ich w pracy własnej. Efektem niewymuszonej pracy, a współpracy, jest większe zaangażowanie i chęć rozwoju językowego </p>'
+  },
+  {
+    name: 'Anna Żywioł',
+    img: 'x.jpg',
+    long: '<p>Polonistka z doświadczeniem w edukacji specjalnej i uczeniu języka polskiego jako obcego. Tutorka, mediatorka, instruktorka harcerska.</p><p>Zawsze chętna do dalszego rozwoju w zakresie psychologii i empatycznej komunikacji.</p><p>W Miejscu będzie podążać za Młodymi, by jak najlepiej towarzyszyć im w poznawaniu świata i samych siebie. I przygotowywać do matury na poziomie rozszerzonym.</p>'
   }
 ]

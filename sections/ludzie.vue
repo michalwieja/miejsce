@@ -83,11 +83,10 @@ export default {
     text-align: center;
     cursor: pointer;
     filter: grayscale(1);
-    transition: .3s;
+    transition: .3s;;
 
     &:hover {
       filter: grayscale(0);
-
     }
   }
 
@@ -99,6 +98,7 @@ export default {
 
   img {
     width: 100%;
+    background: #0F7974;
   }
 }
 

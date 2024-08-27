@@ -8,14 +8,6 @@ export default [
     img: 'projekty-interdyscyplinarne.jpg',
     long: '<p>Projekty to wielokierunkowe bloki, łączące kilka dziedzin, prowadzone z wykorzystaniem innowacyjnych metod i narzędzi. Ich celem jest kształtowanie kompetencji umożliwiających rozwiązywanie złożonych problemów i rozwijanie tzw. wiedzy eksperckiej</p><p>Blok humanistyczny tworzą literatura, historia i wiedza o społeczeństwie (nie zabraknie w nim także zagadnień z psychologii, filozofii czy kulturoznawstwa).</p><p>Blok przyrodniczy to szeroko rozumiane nauki przyrodnicze, w których biologia przeplata się z fizyką, chemią i ochroną środowiska.</p><p>Blok matematyczny skupia się na umiejętnościach i kompetencjach matematycznych niezbędnych na egzaminie maturalnym.</p><p>Blok języka angielskiego to przestrzeń do mówienia i tworzenia w tym języku. W trakcie roku szkolnego zapewne rozgoszczą się tutaj także inne języki. W tym bloku obecni będą wolontariusze ze swoimi zajęciami autorskimi.</p>'
   }, {
-    title: 'Sztuki wizualne i media: Od malowideł naskalnych do TikToka',
-    img: 'sztuki-wizualne.jpg',
-    long: '<p>Zajęcia podczas których młodzi ludzie będą mogli rozwijać swoje artystyczne pasje. To przestrzeń, w której znajdą swoje MIEJSCE wszyscy wrażliwcy, zafascynowani sztuką i pięknem otaczającego świata. To MIEJSCE, w którym sucha, podręcznikowa teoria zostanie zastąpiona praktyką i doświadczeniem sztuki i kultury wszystkimi zmysłami i na wielu poziomach. Będziemy tworzyć przedstawienia teatralne, happeningi, performance i kampanie społeczne. Założymy klub filmowy, na którym będziemy oglądać najlepsze filmy oraz tworzyć swoje własne dzieła filmowe. Będziemy poznawać sztukę i kulturę w miejscach jej powstawania i trwania: u boku artystów, na festiwalach teatralnych i filmowych, w galeriach, muzeach.</p>'
-  }, {
-    title: 'Doświadczalnik',
-    img: 'doswiadczalnik.jpg',
-    long: '<p>\'Doświadczalnik’, to warsztaty naukowe w cyklu Kolba w obszarze nauk przyrodniczych i \'Rocket Science’ – warsztaty z prowadzenia doświadczeń, dziwienia się, dowodzenia i testowania hipotez oraz pisania prac naukowych.  Będzie kosmicznie i biologicznie – z nasionami fasoli w bliskim kosmosie i podczas reżyserii żywego, pośredniego podziału jądra komórkowego (mitozy i mejozy)</p>'
-  }, {
     title: 'Edukacja globalna: Patrzeć dalej i dalej',
     img: 'edukacja-globalna.jpg',
     long: '<p>Na zajęciach młodzi będą szukać odpowiedzi na to, jak funkcjonuje dzisiejszy świat i gdzie w tym wszystkim są obszary ich realnego wpływu. Do czego potrzebne są cele zrównoważonego rozwoju, o co chodzi z Zielonym Ładem i co kryje się za dietą planetarną. Przy okazji sprawdzą czy jednostkowe działania i wybory mają znaczenie globalne, poszukają bioróżnorodności w mieście. Działając na rzecz społeczności lokalnej wprowadzą w życie kilka projektów i wyruszą w Odyseję Umysłu.</p>'
@@ -68,8 +60,16 @@ export default [
     img: 'jak-sie-uczyc.jpg',
     long: '<p>Czy kiedyś, siedząc nad notatkami czy podręcznikiem, w Twojej głowie słyszałaś/ słyszałeś pytanie: ale jak się do tego zabrać? Od czego zacząć?</p><p>Te zajęcia pomagają na nie odpowiedzieć. Praktyczne spotkania, które wspierają Młodych w planowaniu nauki, w oparciu o ich własne kompetencje i zasoby.</p>'
   }, {
-    title: 'Redukcja stresu',
-    img: 'redukcja-stresu.jpg',
-    long: '<p>Często czujesz niepokój, a Twoje ciało napięte się ze stresu? Nie wiesz jak pozbyć się codziennego poczucia przytłoczenia i poradzić sobie z nerwami na egzaminie? Mam coś dla Ciebie. Zapraszam na zajęcia, w czasie których będziemy szukać sposobów na poradzenie sobie ze stresem i napięciem. I tym codziennym, i tym, które pojawia się przy okazji znaczących momentów w Twoim życiu. Poznasz i przećwiczysz techniki relaksacji. Pogadamy o tym, jak nasze ciało działa w stresie. Nauczysz się, jak radzić sobie ze stresem w Twojej głowie. Chodź i sprawdź czy u Ciebie też to zadziała!</p>'
+    title: 'Psychologia',
+    img: 'psychologia.jpg',
+    long: '<p>To zajęcia na których młodzi poznają najważniejsze psychologiczne koncepcję i zastanawiają się jakie mają przełożenie na ich życie.</p><p>To miejsce krytycznej analizy rzeczywistości na podstawie wiedzy społecznej, a także dokonywania refleksji  nad własnymi zasobami i obszarami do pracy.</p>'
+  }, {
+    title: 'Zajęcia fakultatywne',
+    img: 'zajecia-fakultatywne.jpg',
+    long: '<p>W ramach przygotowania do matury prowadzimy 1,5 h zajęcia raz w tygodniu z wszystkiego przedmiotów maturalnych.</p><p>Zajęcia odbywają się w grupach 2-7 osobowych. Adresowane są do modych z klasy 3-4. Ich celem jest kształtowanie i doskonalenie kompetencji maturalnych.</p>'
+  }, {
+    title: 'Zajęcia kreatywne',
+    img: 'zajecia-kreatywne.jpg',
+    long: '<p>Opierają się na praktykownaniu tego, co zwiększa nasz twórczy potencjał.<p></p>Na zajęciach młodzież będzie doświadczać także praktyk uważnościowych i krytycznego myślenia. Czeka ich sporo zabawy, gier, zagadek i przygody.</p>'
   }
 ]

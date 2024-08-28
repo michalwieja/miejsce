@@ -61,7 +61,7 @@ export default [
   },
   {
     name: 'Anna Żywioł',
-    img: 'x.jpg',
+    img: 'anna-z.webp',
     long: '<p>Polonistka z doświadczeniem w edukacji specjalnej i uczeniu języka polskiego jako obcego. Tutorka, mediatorka, instruktorka harcerska.</p><p>Zawsze chętna do dalszego rozwoju w zakresie psychologii i empatycznej komunikacji.</p><p>W Miejscu będzie podążać za Młodymi, by jak najlepiej towarzyszyć im w poznawaniu świata i samych siebie. I przygotowywać do matury na poziomie rozszerzonym.</p>'
   }
 ]

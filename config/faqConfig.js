@@ -33,6 +33,18 @@ export default [
     id: 6,
     active: false,
     title: 'W jaki sposób przeprowadzane są egzaminy ?',
-    details: 'Młodzi Miejsca zdają egzaminy stacjonarnie w trakcie sesji egzaminacyjnych (pięć razy w roku)'
+    details: 'Młodzi Miejsca zdają egzaminy stacjonarnie w trakcie sesji egzaminacyjnych (pięć razy w roku). Egzamin składa się z części pisemnej - test wiedzy i umiejętności zgodny z podstawą programową i części ustnej.'
+  },
+  {
+    id: 7,
+    active: false,
+    title: 'Czy można dołączyć w trakcie roku szkolnego ?',
+    details: 'Rekrutacja uzupełniająca odbywa się do końca października. Po tym czasie nie jest możliwe dołączenie do Miejsca.'
+  },
+  {
+    id: 8,
+    active: false,
+    title: 'Czy są w szkole zajęciach przygotowujące do matury?',
+    details: 'Od 1 klasy lekturownik (zajęcia z języka polskiego), matematyka i język angielskiego są obowiązkowe i odbywają się w grupach klasowych. Od kl 3 organizujemy fakultety przedmiotowe wg złożonych deklaracji maturalnych. Fakultet jest organizowany nawet jeśli tylko jedna osoba zdaje maturę z danego przedmiotu.'
   }
 ]

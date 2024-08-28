@@ -29,11 +29,6 @@
         </div>
         <div class="contact__card">
           <EmailIcon height="32" />
-          <a href="mailto:kontakt@liceummiejsce.pl">
-            <h3>
-              kontakt@liceummiejsce.pl
-            </h3>
-          </a>
           <a href="mailto:biuro@liceummiejsce.pl">
             <h3>
               biuro@liceummiejsce.pl

@@ -13,7 +13,7 @@ export default [
     long: '<p>Na zajęciach młodzi będą szukać odpowiedzi na to, jak funkcjonuje dzisiejszy świat i gdzie w tym wszystkim są obszary ich realnego wpływu. Do czego potrzebne są cele zrównoważonego rozwoju, o co chodzi z Zielonym Ładem i co kryje się za dietą planetarną. Przy okazji sprawdzą czy jednostkowe działania i wybory mają znaczenie globalne, poszukają bioróżnorodności w mieście. Działając na rzecz społeczności lokalnej wprowadzą w życie kilka projektów i wyruszą w Odyseję Umysłu.</p>'
   }, {
     title: 'Kilka kroków dalej',
-    img: 'kilka-krokow.jpg',
+    img: 'kilka-krokow.webp',
     long: '<p>"Kilka kroków dalej" to projekt naszego wędrowania, doświadczania i poznawania. Wędrowania blisko i daleko ale zawsze środkami komunikacji miejskiej. Doświadczania i poznawania, najpierw siebie w trakcie wędrówki, potem drugiego człowieka i świata. Projekt służy wspieraniu siebie w uważnym, świadomym i refleksyjnym byciu obserwatorem.</p>'
   }, {
     title: 'Bios Logos',
@@ -21,15 +21,15 @@ export default [
     long: '<p>Zajęcia z odkrywania nieznanego i uświadamiania sobie nieoczywistości - tych kosmicznych w biologii, a czasem tych mocno biologicznych w kosmosie. Wspólnie zadbamyo wybór problematyki do biowarsztatowani.</p><p>Na warsztat wciągniemy cytologię - przyjrzymy się organellom komórkowym i popatrzymy, czego możemy się od nich nauczyć. Tworzymy anatomiczne modele naukowe. Czytamy i dzielimy się wiedzą - prasówka - zdobywamy doświadczenie z prezentowania prac popularnonaukowych.</p>'
   }, {
     title: 'Lekturownik',
-    img: 'lekturownik.jpg',
+    img: 'lekturownik.webp',
     long: '<p>Niby obowiązkowy, ale... nie mylcie go z nudnymi lekcjami języka polskiego! Na tych zajęciach odkryjecie, że literatura to fascynująca przygoda, a szkolne “lektury do matury" mogą być równie pasjonujące jak współczesne gry komputerowe. W Lekturowniku chodzi o to, żeby PRZEŻYWAĆ literaturę, czyli czytać teksty kultury emocjonalnie. Nie będziemy przed nimi klękać, nie będziemy poddawać się stereotypom, choć na pewno z szacunkiem podejdziemy do każdego dzieła literackiego, które będziemy omawiać.</p>'
   }, {
     title: 'Estetyka',
-    img: 'estetyka.jpg',
+    img: 'estetyka.webp',
     long: '<p>Czy kiedykolwiek zastanawiałeś się nad tym, co czyni świat wokół nas pięknym? Zajęcia z estetyki to prawdziwa uczta dla zmysłów, która pozwoli nam odkryć piękno i harmonię we wszystkim, co nas otacza. Przeanalizujemy różnorodne formy sztuki, natury i kultury, w celu nabycia umiejętności odróżniania piękna od brzydoty. Będziemy rozwijać swoje umiejętności obserwacyjne i percepcję, aby lepiej dostrzegać subtelne detale i niuanse w otaczającym cię świecie. Zajmiemy się również estetyką przyrody - będziemy odkrywać piękno natury, ucząc się rozpoznawać harmonię w otaczającym cię środowisku przyrodniczym.</p>'
   }, {
     title: 'Projekty społeczne',
-    img: 'projekty-spoleczne.jpg',
+    img: 'projekty-spoleczne.webp',
     long: '<p>Zróbmy coś razem! Zróbmy coś dla innych! To zajęcia dotyczące tworzenia projektów społecznych. W ich ramach młodzi poznają narzędzia pracy projektowej, które przydają się też choćby przy planowaniu własnej nauki. Zdobędą doświadczenia liderskie i pracy w zespole. Poznają sposoby konstruktywnego rozwiązywania problemów. Wymyślą i przeprowadzą własne projekty, które zmienią ważne dla nich sprawy i miejsca.</p>'
   }, {
     title: 'Filozofia pogranicza',
@@ -45,7 +45,7 @@ export default [
     long: '<p>Zamiast wkuwania dat i nazwisk będziemy analizować procesy, przyglądać się zmianom społecznym i politycznym, badać trendy i szukać odpowiedzi na pytanie: Dlaczego jest tak, jak jest. Praworządność, demokracja, społeczeństwo obywatelskie, prawa człowieka, wspólna sprawa, globalizacja, mała ojczyzna... to tematy wokół których zbudowane są zajęcia.</p>'
   }, {
     title: 'Matematyka',
-    img: 'matematyka.jpg',
+    img: 'matematyka.webp',
     long: '<p>Równania to siła napędzająca matematykę, nauki ścisłe i technikę. Bez nich nie działałby TikTok, Instagram czy Spotify, a Google kojarzyłby się co najwyżej z narciarstwem. Między innymi dlatego warto się z nimi (i nie tylko) zaprzyjaźnić. A czy można to zrobić w przyjaznej, wspierającej atmosferze? Sprawdź i się przekonaj.</p>'
   }, {
     title: 'Język angielski',

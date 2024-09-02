@@ -16,8 +16,8 @@ export default [
     img: 'kilka-krokow.webp',
     long: '<p>"Kilka kroków dalej" to projekt naszego wędrowania, doświadczania i poznawania. Wędrowania blisko i daleko ale zawsze środkami komunikacji miejskiej. Doświadczania i poznawania, najpierw siebie w trakcie wędrówki, potem drugiego człowieka i świata. Projekt służy wspieraniu siebie w uważnym, świadomym i refleksyjnym byciu obserwatorem.</p>'
   }, {
-    title: 'Bios Logos',
-    img: 'bios-logos.jpg',
+    title: 'Warsztaty przyrodnicze',
+    img: 'warsztaty-przyrodnicze.jpg',
     long: '<p>Zajęcia z odkrywania nieznanego i uświadamiania sobie nieoczywistości - tych kosmicznych w biologii, a czasem tych mocno biologicznych w kosmosie. Wspólnie zadbamyo wybór problematyki do biowarsztatowani.</p><p>Na warsztat wciągniemy cytologię - przyjrzymy się organellom komórkowym i popatrzymy, czego możemy się od nich nauczyć. Tworzymy anatomiczne modele naukowe. Czytamy i dzielimy się wiedzą - prasówka - zdobywamy doświadczenie z prezentowania prac popularnonaukowych.</p>'
   }, {
     title: 'Lekturownik',
@@ -40,8 +40,8 @@ export default [
     img: 'tworczosc.jpg',
     long: '<p>Na tych zajęciach pokazujemy, że twórczość towarzyszy nam na każdym kroku. Młodzi mogą wybrać spośród trzech sposobów realizowania tego przedmiotu- stolarnię, zpt, muzykę.</p>'
   }, {
-    title: 'Współczesny świat z historią w tle',
-    img: 'wspolczesny-swiat.jpg',
+    title: 'Historia XX wieku',
+    img: 'historia-xx-wieku.webp',
     long: '<p>Zamiast wkuwania dat i nazwisk będziemy analizować procesy, przyglądać się zmianom społecznym i politycznym, badać trendy i szukać odpowiedzi na pytanie: Dlaczego jest tak, jak jest. Praworządność, demokracja, społeczeństwo obywatelskie, prawa człowieka, wspólna sprawa, globalizacja, mała ojczyzna... to tematy wokół których zbudowane są zajęcia.</p>'
   }, {
     title: 'Matematyka',
@@ -49,12 +49,8 @@ export default [
     long: '<p>Równania to siła napędzająca matematykę, nauki ścisłe i technikę. Bez nich nie działałby TikTok, Instagram czy Spotify, a Google kojarzyłby się co najwyżej z narciarstwem. Między innymi dlatego warto się z nimi (i nie tylko) zaprzyjaźnić. A czy można to zrobić w przyjaznej, wspierającej atmosferze? Sprawdź i się przekonaj.</p>'
   }, {
     title: 'Język angielski',
-    img: 'jezyk-angielski.jpg',
+    img: 'jezyk-angielski.webp',
     long: '<p>W Miejscu pracujemy w grupach mieszanych. Rywalizację zastępuje współpraca – młodzi nie rywalizują ze sobą (o oceny, względy, uwagę), bo doskonale zdają sobie sprawę, że są na różnym etapie edukacyjnym czy rozwojowym. Zamiast tego wybierają współpracę – bardziej zaawansowani chętnie wprowadzają mniej znających język w świat dwujęzycznym. Zaś Ci początkujący korzystają z wiedzy zaawansowanych. Wszyscy na tym zyskują. Nie tylko wiedzę, ale i głębsze relacje. Zaawansowani często przyjmują rolę nauczyciela, co pozwala im ugruntować wiedzę i ewentualnie uzupełnić braki. Początkujący, odnajdują swoich mentorów, którzy również poza zajęciami wspierają ich w pracy własnej. Efektem niewymuszonej pracy, a współpracy, jest większe zaangażowanie i chęć rozwoju językowego.</p>'
-  }, {
-    title: 'Sport',
-    img: 'sport.jpg',
-    long: '<p>Sport szkolny to nie tylko siatkówka i koszykówka. U nas to też jazda na hulajnodze czy rolkach. Wspinaczka, frisbee a może łucznictwo? Sprawdź co ci pasuje.</p>'
   }, {
     title: 'Jak się uczyć?',
     img: 'jak-sie-uczyc.jpg',

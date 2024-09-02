@@ -47,7 +47,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://www.liceummiejsce.pl/miejsce1200x630.jpg'
+        content: 'https://www.liceummiejsce.pl/miejsce1200x630.webp'
       }
     ],
     link: [

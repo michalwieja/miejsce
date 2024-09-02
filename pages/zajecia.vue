@@ -77,7 +77,7 @@ export default {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    flex: 1 1 300px;
+    flex: 1 1 320px;
     font-size: 22px;
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;

@@ -46,6 +46,10 @@ body {
   width: calc(min(1320px, 90%));
   margin-inline: auto;
   overflow-x: hidden;
+  
+  p {
+    margin-bottom: 10px;
+  }
 }
 
 .fh {

@@ -26,7 +26,7 @@
           >
             <CustomButton
               :handle-click="()=>navActive=false"
-              label="Rekrutacja Katowice"
+              label="Rekrutacja"
             />
           </NuxtLink>
         </div>

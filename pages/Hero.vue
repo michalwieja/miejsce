@@ -5,7 +5,7 @@
       <Socials />
       <div class="hero__title desktop-only">
         <div class="hero__skew-1">
-          Autorskie „liceum”
+          Autorskie Liceum
         </div>
         <br>
         <div class="hero__skew-2">
@@ -20,7 +20,7 @@
         </div>
         <div>
           <div class="hero__skew-2">
-            „liceum”
+            Liceum
           </div>
         </div>
         <div>

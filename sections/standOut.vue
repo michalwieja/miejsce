@@ -1,39 +1,39 @@
 <template>
-  <div class="school site">
-    <div class="school__content">
-      <Title title="Czego możesz spodziewać się w Miejscu?" />
-      <Accordion :content="expectConfig" />
+  <div class="standOut site">
+    <div class="standOut__photo" />
+    <div class="standOut__content">
+      <Title title="Co nas wyróżnia?" />
+      <Accordion :content="standOutConfig" />
     </div>
-    <div class="school__photo" />
   </div>
 </template>
 
 <script>
 import Accordion from '../components/Accordion.vue'
-import expectConfig from '../config/expectConfig.js'
+import standOutConfig from '../config/standOutConfig.js'
 import Title from '../components/Title.vue'
 
 export default {
-  name: 'Szkola',
+  name: 'StandOut',
   components: {
     Title,
     Accordion
   },
   data () {
     return {
-      expectConfig
+      standOutConfig
     }
   }
 }
 </script>
 
 <style lang="scss">
-.school {
+.standOut {
   display: flex;
   align-items: flex-start;
 
   @media (max-width: 1200px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   & > div {
@@ -45,17 +45,19 @@ export default {
   }
 
   &__content {
-    padding-left: calc(calc(100vw - calc(min(1320px, 90%))) / 2);
+    overflow: hidden;
+    padding-left: 2rem;
 
     @media (max-width: 1200px) {
+      padding-left: calc(calc(100vw - calc(min(1320px, 90%))) / 2);
       padding-right: calc(calc(100vw - calc(min(1320px, 90%))) / 2);
     }
   }
 
   &__photo {
     height: 600px;
-    background-image: url("~/assets/img/cover_2.webp");
-    background-position: center 20%;
+    background-image: url("~/assets/img/cover_1.jpg");
+    background-position: center 33%;
     background-repeat: no-repeat;
     background-size: cover;
     @media (max-width: 1200px) {

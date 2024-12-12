@@ -56,7 +56,7 @@ export default [
     details: `
       <p>Tak. Od klasy 1 mamy obowiązkowe zajęcia:</p>
       <ul>
-        <li><strong>Lekturownik</strong> (zajęcia z języka polskiego),</li>
+        <li>Lekturownik (zajęcia z języka polskiego),</li>
         <li>Matematyka,</li>
         <li>Język angielski.</li>
       </ul>

@@ -42,11 +42,6 @@
       Potrzebujesz więcej informacji? Nie znalazłaś/-eś odpowiedzi na swoje pytania? <a href="#kontakt"><u>Skontaktuj się
         z nami!</u></a>
     </p>
-    <h3 class="link">
-      <a href="https://forms.gle/pMBCem7vXszARwmv6" target="_blank">
-        Formularz rekrutacyjny
-      </a>
-    </h3>
   </div>
 </template>
 

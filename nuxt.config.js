@@ -73,7 +73,32 @@ export default {
         href: '/favicon/safari-pinned-tab.svg',
         color: '#5bbad5'
       }
-    ]
+    ],
+    script: [
+      {
+        hid: 'facebook-pixel',
+        src: 'https://connect.facebook.net/en_US/fbevents.js',
+        async: true
+      },
+      {
+        hid: 'facebook-pixel-init',
+        innerHTML: `
+          !function(f,b,e,v,n,t,s)
+          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window,document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+          
+          fbq('init', '681007381281551');
+          fbq('track', 'PageView');
+        `,
+        type: 'text/javascript'
+      }
+    ],
+    __dangerouslyDisableSanitizers: ['script']
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -115,4 +140,7 @@ export default {
   build: {
     transpile: [/^vue2-google-maps($|\/)/]
   }
+  // script: [
+  //   { src: 'pixel.js', type: 'text/javascript' }
+  // ]
 }

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Website for **Liceum Miejsce** (liceummiejsce.pl) — a private high school in Katowice, Poland. Built with Nuxt 2 (Vue 2), targeting static generation. Requires **Node 16**.
+Website for **Liceum Miejsce** (liceummiejsce.pl) — a private high school in Katowice, Poland. Built with Nuxt 2 (Vue 2), targeting static generation. Requires **Node 18**.
 
 ## Commands
 

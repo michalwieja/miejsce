@@ -2,6 +2,11 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
 
   target: 'static',
+  env: {
+    GRAPHCMS_ENDPOINT: process.env.GRAPHCMS_ENDPOINT,
+    MAPS_API_KEY: process.env.MAPS_API_KEY,
+    WEB3FORMS_KEY: process.env.WEB3FORMS_KEY
+  },
   server: {
     host: '0.0.0.0',
     port: 8000

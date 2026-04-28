@@ -81,6 +81,15 @@ export default {
     ],
     script: [
       {
+        hid: 'google-tag-manager',
+        innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MT48P7MP');`,
+        type: 'text/javascript'
+      },
+      {
         hid: 'facebook-pixel',
         src: 'https://connect.facebook.net/en_US/fbevents.js',
         async: true
@@ -96,7 +105,7 @@ export default {
           t.src=v;s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window,document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
-          
+
           fbq('init', '681007381281551');
           fbq('track', 'PageView');
         `,

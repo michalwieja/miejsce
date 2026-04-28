@@ -81,6 +81,11 @@ export default {
     ],
     script: [
       {
+        hid: 'consent-init',
+        innerHTML: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('consent', 'default', {analytics_storage: 'denied', ad_storage: 'denied'});`,
+        type: 'text/javascript'
+      },
+      {
         hid: 'google-tag-manager',
         innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

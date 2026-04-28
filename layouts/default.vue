@@ -3,11 +3,12 @@
     <Header />
     <Nuxt />
     <Footer />
+    <CookieBanner />
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT48P7MP"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
   </div>
-  <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT48P7MP"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
 </template>
 
 <script>

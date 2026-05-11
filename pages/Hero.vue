@@ -32,7 +32,7 @@
         </div>
         <div class="hero__cta">
           <CustomButton
-            label="Skontaktuj się z nami"
+            label="Zadaj nam pytanie"
             :handle-click="scrollToContact"
           />
         </div>
@@ -58,9 +58,9 @@ export default {
   },
   methods: {
     scrollToContact () {
-      const kontaktSection = document.getElementById('kontakt')
-      if (kontaktSection) {
-        kontaktSection.scrollIntoView({ behavior: 'smooth' })
+      const form = document.getElementById('contact-form')
+      if (form) {
+        form.scrollIntoView({ behavior: 'smooth' })
       }
     }
   }

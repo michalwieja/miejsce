@@ -50,7 +50,11 @@
       </div>
     </div>
 
-    <form class="contact__form" @submit.prevent="submit">
+    <SectionTitle
+      title="Zobacz, czy to jest Twoje miejsce."
+      subtitle="Wracamy z odpowiedzią w 24h"
+    />
+    <form id="contact-form" class="contact__form" @submit.prevent="submit">
       <div class="contact__form-row">
         <div class="contact__form-field">
           <label for="contact-name">Imię i nazwisko</label>
@@ -100,6 +104,7 @@
 
 <script>
 import Title from '../components/Title.vue'
+import SectionTitle from '../components/SectionTitle.vue'
 import mapOptions from '../config/mapOptions.js'
 
 import EmailIcon from '../components/icons/EmailIcon.vue'
@@ -112,7 +117,8 @@ export default {
     HomeIcon,
     Title,
     PhoneIcon,
-    EmailIcon
+    EmailIcon,
+    SectionTitle
   },
   data () {
     return {

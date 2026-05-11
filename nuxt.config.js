@@ -14,7 +14,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Liceum Miejsce',
+    title: 'Liceum Miejsce – Autorskie Liceum w Katowicach',
     htmlAttrs: {
       lang: 'pl'
     },
@@ -27,9 +27,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Szkoła bez stopni, bez testów i sprawdzianów, bez zadań domowych… bez presji i stresu.\n' +
-          'Szkoła, w której relacje są ważniejsze od wyników.\n' +
-          'Szkoła, w której nie ma nic ważniejszego niż człowiek.'
+        content: 'Autorskie liceum w Katowicach – szkoła bez stopni, bez testów i sprawdzianów, bez zadań domowych. Miejsce, w którym relacje są ważniejsze niż wyniki.'
       },
       {
         name: 'format-detection',
@@ -38,20 +36,66 @@ export default {
       {
         hid: 'og:type',
         property: 'og:type',
+        content: 'website'
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
         content: 'Liceum Miejsce'
+      },
+      {
+        hid: 'og:locale',
+        property: 'og:locale',
+        content: 'pl_PL'
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://www.liceummiejsce.pl'
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Liceum Miejsce'
-      }, {
+        content: 'Liceum Miejsce – Autorskie Liceum w Katowicach'
+      },
+      {
         hid: 'og:description',
         property: 'og:description',
-        content: 'Liceum Miejsce'
+        content: 'Autorskie liceum w Katowicach – szkoła bez stopni, bez testów i sprawdzianów, bez zadań domowych. Miejsce, w którym relacje są ważniejsze niż wyniki.'
       },
       {
         hid: 'og:image',
         property: 'og:image',
+        content: 'https://www.liceummiejsce.pl/miejsce1200x630.webp'
+      },
+      {
+        hid: 'og:image:width',
+        property: 'og:image:width',
+        content: '1200'
+      },
+      {
+        hid: 'og:image:height',
+        property: 'og:image:height',
+        content: '630'
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Liceum Miejsce – Autorskie Liceum w Katowicach'
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Autorskie liceum w Katowicach – szkoła bez stopni, bez testów i sprawdzianów, bez zadań domowych. Miejsce, w którym relacje są ważniejsze niż wyniki.'
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
         content: 'https://www.liceummiejsce.pl/miejsce1200x630.webp'
       }
     ],

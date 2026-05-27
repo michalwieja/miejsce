@@ -157,6 +157,7 @@ export default {
         if (data.success) {
           this.status = 'success'
           this.form = { name: '', email: '', message: '' }
+          window.dataLayer.push({ event: 'form_submit' })
         } else {
           this.status = 'error'
         }

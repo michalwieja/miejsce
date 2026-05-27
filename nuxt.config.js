@@ -130,6 +130,21 @@ export default {
         type: 'text/javascript'
       },
       {
+        hid: 'google-gtag',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-7XGB3QDVP2',
+        async: true
+      },
+      {
+        hid: 'google-gtag-init',
+        innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-7XGB3QDVP2');
+        `,
+        type: 'text/javascript'
+      },
+      {
         hid: 'google-tag-manager',
         innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

@@ -43,6 +43,9 @@ export default {
           analytics_storage: accepted ? 'granted' : 'denied',
           ad_storage: accepted ? 'granted' : 'denied'
         })
+        if (accepted) {
+          window.dataLayer.push({ event: 'consent_granted' })
+        }
       }
     }
   }
